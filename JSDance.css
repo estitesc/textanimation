@@ -1,24 +1,27 @@
-@font-face {
-    font-family: billabong;
-    src: url(billabong.ttf);
-}
-
 body {
   font-family: 'avenir next' sans-serif;
   color: #48769C;
-  border-top: solid 100px #48769C;	
+  border-top: solid 200px #48769C;	
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
 #title{
-	position: absolute;
 	font-family: 'billabong';
+<<<<<<< HEAD
+	/*padding-top: -3cm;*/
+	  position:absolute;
+  	left: 41%;
+ 	top: 30px;
+	font-size: 200px;
+	color:white;
+=======
 	text-align: center;
 	top: 5px;
 	font-size: 85px;
 	color: white;
+>>>>>>> d4ae3e869dac528ca290ea0800fd47028db86eed
 }
 
 #hashtag{
@@ -32,11 +35,9 @@ body {
 	border-radius: 6px;
 	margin-top: .4cm;
 }
-
 #grab{
 	margin-bottom: .3cm;
 }
-
 input#grab{
     background:url(play.png);
     background-repeat: no-repeat;
@@ -45,21 +46,19 @@ input#grab{
 }
 
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
 img {
-	width: 35%;
+
+	width: 45%;
+	margin-left: 381px;
+	margin-top: 150px;
 	border-top: solid #5B372E 15px;
 	border-left: solid #5B372E 15px;
 	border-right: solid #5B372E 15px;
 	border-bottom: solid #5B372E 70px;
 	border-radius: 5px;
-}
+	}
 
+}
 
 #stop{
 	padding-top: .5cm;
@@ -68,13 +67,17 @@ img {
 }
 
 #instafeed {
-	position: absolute;
-	width: 100%;
-
+	position: fixed;
+	left: 100px;
+	top: 120px;
 }
 #instafeed2 {
-	position: absolute;
-	width: 100%;
+	position: fixed;
+	left: 100px;
+	top: 120px;
 }
-
+html, body {
+    margin: 0;
+    height: 100%;
+}
 
