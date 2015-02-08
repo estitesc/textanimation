@@ -7,24 +7,25 @@
   <title>JSDance</title>
 </head>
 
-<link rel="stylesheet" href="JSDance.css">
+<link rel="stylesheet" href="JSDance.css">;
 
 
 
 <body OnLoad="start()">
+	<!-- HTML Shell for Animation -->
 
-<!-- HTML Shell for Animation -->
+	<center>
+	<input type=button value="Stop" onClick = "stop()">
+	<input type=button value="Start" onClick = "start()">
 
-<center>
-<input type=button value="Stop" onClick = "stop()">
-<input type=button value="Start" onClick = "start()">
+	<div id="canvas"></div>
 
-<br />
-<br />
+	<br />
+	<br />
 
-<div id="canvas"></div>
-
-</center>
+	<div id="instafeed">
+		<img src={{image}}></img>
+	</div>
 
 <!-- Load JQuery-->
 <script src="jquery-1.11.2.min.js"></script>
