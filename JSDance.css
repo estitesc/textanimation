@@ -17,6 +17,12 @@ body {
 	color:white;
 }
 
+#hashtag{
+	font-family: 'billabong';
+	font-size: 25pt;
+	color: black;
+}
+
 #text_input{
 	border-radius: 6px;
 	margin-top: .4cm;
