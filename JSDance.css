@@ -1,12 +1,10 @@
 body {
-    font-family: 'Avenir Next', sans-serif;
-    text-shadow: 2px 2px #FFFFFF;
+  font-family: 'Avenir Next', sans-serif;
+  text-shadow: 2px 2px #FFFFFF;
 	background-color: #A5DF00;
 	border: 2px solid white;
 	border-radius: 25px;
-	padding-top: 3cm;
 	border-top: thick double white;
-
 }
 
 #text_input{
@@ -23,9 +21,14 @@ body {
 	font-size: 30px;
 }
 
-.insta {
-	position: absolute fixed;
+#instafeed {
+	position: fixed;
 	left: 100px;
-	top: 100px;
+	top: 120px;
+}
+#instafeed2 {
+	position: fixed;
+	left: 100px;
+	top: 120px;
 }
 
