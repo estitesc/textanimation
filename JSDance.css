@@ -23,13 +23,16 @@ body {
 
 #hashtag{
 	font-family: 'billabong';
-	font-size: 25pt;
+	font-size: 20pt;
 	color: black;
 }
 
 #text_input{
 	border-radius: 6px;
 	margin-top: .4cm;
+	margin-left: 5px;
+	width: 215px;
+	height: 30px;
 }
 
 #grab{
