@@ -1,15 +1,15 @@
 body {
     font-family: 'Avenir Next', sans-serif;
     text-shadow: 2px 2px #FFFFFF;
-	background-color: #BFFF00;
-	border: 2px solid white;
+	background-color: #A4A4A4;
+	border: 2px solid green;
 	border-radius: 25px;
 	padding-top: 3cm;
 
 }
-
-#stop{
-	padding-top: .5cm;
-	color: #DF013A;
-	font-size: 30px;
+#text_input{
+	margin-bottom: .3cm;
+}
+#grab{
+	margin-bottom: .3cm;
 }
