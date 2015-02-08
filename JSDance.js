@@ -1,9 +1,11 @@
 var a="\n";
-var max=0;
+var num_frames=0;
+var time=0;
+var current_frame = 0;
 
 function list() {
-	max=list.arguments.length;
-	for (i=0; i<max; i++) {
+	num_frames=list.arguments.length;
+	for (i=0; i<num_frames; i++) {
 		this[i]=list.arguments[i];
 	}
 }
@@ -44,7 +46,7 @@ frames = new list(
 "NO.<br />"
 );
 
-steps_1 = [5, 10, 34, 19, 3];
+steps_1 = [500, 100, 134, 319, 30];
 
 function stepThrough(steps) {
 	step = steps[0];
@@ -73,7 +75,10 @@ var x=0;
 var refreshIntervalId;
 
 function start() {
-	refreshIntervalId = setInterval("tick()", 200);
+
+	step_new = stepThrough(steps_1);
+
+	refreshIntervalId = setInterval("tickNew()", 1);
 
 	step_new = stepThrough(steps_1);
 	console.log(step_new[0])
@@ -87,10 +92,25 @@ function stop() {
 
 //requestAnimationFrame instead of interval
 
-function tick() {
-	$("#canvas").html(frames[x]);
+//ten thousand click cycle
+function tickNew() {
 	x++;
-	if (x == max) {
+	if (x == 10000) {
 		x = 0;
 	}
+	time=x;
+
+	if (x % 200 == 0) {
+		nextFrame();
+	}
+}
+
+function nextFrame() {
+	current_frame++;
+
+	if(current_frame >= num_frames-1) {
+		current_frame = 0;
+	}
+
+	$("#canvas").html(frames[current_frame]);
 }
