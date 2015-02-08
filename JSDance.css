@@ -1,13 +1,19 @@
+@font-face {
+	font-family: billabong;
+	src: url(billabong.ttf);
+}
+
 body {
   font-family: 'avenir next' sans-serif;
   color: #48769C;
-  border-top: solid 200px #48769C;	
+  border-top: solid 100px #48769C;	
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
 #title{
+	position: absolute;
 	font-family: 'billabong';
 	text-align: center;
 	top: 5px;
