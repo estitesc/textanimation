@@ -89,8 +89,9 @@ function start() {
         get: 'tagged',
         tagName: 'hackathon',
         clientId: 'a201c5295e4a42d1bad1e23aa4cda7be',
-        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+        useHttp: 'true'
   });
+  feed.run();
 
 }
 
