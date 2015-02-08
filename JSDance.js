@@ -10,24 +10,6 @@ function list() {
 	}
 }
 
-frames_old = new list(
-"  o <br />"  +
-" /|\\ <br />" +
-" / \\ <br />",
-
-"  0 <br />" +
-" /|\\ <br />" +
-" | \\ <br />",
-
-"  o <br />"  +
-" /|\\ <br />" +
-" / | <br />",
-
-"  0 <br />"  +
-" /|\\ <br />" +
-" / \\ <br />"
-);
-
 frames = new list(
 "Hello<br />"  +
 "What<br />" +
@@ -90,18 +72,26 @@ function stop() {
 	clearInterval(refreshIntervalId);
 }
 
+var feed = 0;
+
 function instagramFeed(tag) {
-	var feed = new Instafeed({
+	feed = new Instafeed({
         get: 'tagged',
         tagName: tag,
         clientId: 'a201c5295e4a42d1bad1e23aa4cda7be',
-        useHttp: 'true'
+        useHttp: 'true',
+        resolution: 'standard_resolution',
+        limit: '1'
   });
   feed.run();
 }
 
-//requestAnimationFrame instead of interval
+function refr() {
+	$("#instafeed").html("");
+	feed.next();
+}
 
+//requestAnimationFrame instead of interval
 //ten thousand click cycle
 function tickNew() {
 	x++;
