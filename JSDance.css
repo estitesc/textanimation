@@ -9,12 +9,19 @@ body {
 
 #title{
 	font-family: 'billabong';
+<<<<<<< HEAD
 	/*padding-top: -3cm;*/
 	  position:absolute;
   	left: 41%;
  	top: 30px;
 	font-size: 200px;
 	color:white;
+=======
+	text-align: center;
+	top: 5px;
+	font-size: 85px;
+	color: white;
+>>>>>>> d4ae3e869dac528ca290ea0800fd47028db86eed
 }
 
 #hashtag{
