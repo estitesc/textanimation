@@ -17,20 +17,26 @@
 	<!-- HTML Shell for Animation -->
 
 	<center>
+
+	<a class="btn btn-default" href="#" role="button">Link</a>
+	<input type=button value="Stop" onClick = "stop()">
 	<input type=button value="Start" onClick = "start()">
 	<input id="stop" type=button value="Stop" onClick = "stop()">
+
+	<br />
+	<input id="text_input" /> <br />
+	<input type=button value="grab" id="grab" onClick = "start()">
 
 	<div id="canvas"></div>
 
 	<br />
 	<br />
 
-	<div id="instafeed">
-		<img src={{image}}></img>
-	</div>
+	<div id="instafeed"></div>
 
 <!-- Load JQuery-->
 <script src="jquery-1.11.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"> </script>
 <!-- Load InstaFeed -->
 <!-- https://github.com/stevenschobert/instafeed.js -->
 <script src="instafeed.min.js"></script>
