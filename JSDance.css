@@ -6,3 +6,10 @@ body {
 	border-radius: 25px;
 	padding-top: 3cm;
 }
+
+#stop{
+	padding-top: .5cm;
+	color: #DF013A;
+	font-size: 30px;
+}
+
