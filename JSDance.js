@@ -79,6 +79,13 @@ function start() {
 	console.log(step_new[0])
 
 	stepThrough(step_new);
+
+	var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'a201c5295e4a42d1bad1e23aa4cda7be'
+    });
+    feed.run();
 }
 
 function stop() {

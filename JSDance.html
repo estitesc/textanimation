@@ -12,21 +12,26 @@
 
 
 <body OnLoad="start()">
+	<!-- HTML Shell for Animation -->
 
-<!-- HTML Shell for Animation -->
+	<center>
+	<input type=button value="Stop" onClick = "stop()">
+	<input type=button value="Start" onClick = "start()">
 
-<center>
-<input type=button value="Stop" onClick = "stop()">
-<input type=button value="Start" onClick = "start()">
+	<br />
+	<br />
 
-<br />
-<br />
+	<div id="canvas"></div>
 
-<div id="canvas"></div>
+	<br />
+	<br /?
 
-</center>
+	<div id="instafeed"></div>
 
-<!-- Load JQuery-->
-<script src="jquery-1.11.2.min.js"></script>
-<script src="JSDance.js"></script>
+	</center>
+
+	<!-- Load JQuery-->
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="JSDance.js"></script>
+	<script src="instafeed.min.js"></script>
 </body>
