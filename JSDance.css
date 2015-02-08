@@ -8,16 +8,23 @@ body {
 }
 
 #text_input{
+	border-radius: 3px;
 	margin-bottom: .3cm;
 }
 #grab{
 	margin-bottom: .3cm;
 }
-input#refr{
+input#grab{
     background:url(play.png);
     background-repeat: no-repeat;
     width:40px;
     height:40px;
+}
+
+img {
+	width: 75%;
+	left-margin: auto;
+	right-margin: auto;
 }
 
 }
