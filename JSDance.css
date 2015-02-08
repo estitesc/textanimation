@@ -3,6 +3,7 @@ body {
     text-shadow: 2px 2px #FFFFFF;
 	background-color: #BFFF00;
 	border: 2px solid white;
+	border-radius: 25px;
 	padding-top: 6cm;
 
     }
