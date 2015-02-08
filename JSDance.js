@@ -2,6 +2,7 @@ var a="\n";
 var num_frames=0;
 var time=0;
 var current_frame = 0;
+var started = 0;
 
 function list() {
 	num_frames=list.arguments.length;
@@ -84,10 +85,11 @@ function instagramFeed(tag) {
     limit: '1',
     template: '<a target="_blank" class="animation" href="{{link}}"><img src="{{image}}" /></a>'
   });
-  console.log("before run");
+
   clearInstafeed();
   feed.run();
-  console.log("after run");
+
+  started = 1;
 }
 
 function refr() {
@@ -111,7 +113,9 @@ function tickNew() {
 	time=x;
 
 	if (x % 400 == 0) {
-		refr();
+		if(started == 1) {
+			refr();
+		}
 	}
 }
 

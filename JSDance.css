@@ -7,13 +7,13 @@ body {
 }
 
 
-#insta{
+#title{
 	font-family: 'billabong';
 	/*padding-top: -3cm;*/
 	  position:absolute;
   	left: 41%;
- 	top: 105px;
-	font-size: 80px;
+ 	top: 30px;
+	font-size: 200px;
 	color:white;
 }
 
