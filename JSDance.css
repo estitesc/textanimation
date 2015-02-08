@@ -1,15 +1,21 @@
 body {
-    font-family: 'Avenir Next', sans-serif;
-    text-shadow: 2px 2px #FFFFFF;
+  font-family: 'Avenir Next', sans-serif;
+  text-shadow: 2px 2px #FFFFFF;
 	background-color: #BFFF00;
 	border: 2px solid white;
 	border-radius: 25px;
-	padding-top: 3cm;
+
 }
 
 #stop{
 	padding-top: .5cm;
 	color: #DF013A;
 	font-size: 30px;
+}
+
+.insta {
+	position: absolute fixed;
+	left: 100px;
+	top: 100px;
 }
 
