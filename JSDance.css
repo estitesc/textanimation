@@ -23,7 +23,8 @@ body {
 
 #hashtag{
 	font-family: 'billabong';
-	font-size: 25pt;
+	font-size: 15pt;
+	margin-right: 2px;
 	color: black;
 }
 
