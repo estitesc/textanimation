@@ -8,44 +8,33 @@
 
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-</head>
-
 <link rel="stylesheet" href="JSDance.css">
-
+</head>
 
 <body OnLoad="start()">
 	<!-- HTML Shell for Animation -->
-
-
 	<center>
-	<h1 id="insta"> Instashow </h1></center>
-<!-- 	<input type=button value="Start" onClick = "start()">
-	<input id="stop" type=button value="Stop" onClick = "stop()"> -->
+	<span id="title"><h1> Instashow </h1></span>
 
-	<center>
-	<input id="text_input" />
-	<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span></center>
+	<span id="shell">
+		<input id="text_input" placeholder="Enter #tag"/>
+		<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span>
+		<br><br>
+	</span>
 
-	<div id="canvas"></div>
+	<div class="insta center" id="instafeed"></div>
+	<div class="insta center" id="instafeed2"></div>
+	</center>
 
-	<p id="counter"></p>
-
-	<br />
-	<br />
-
-	<div class="insta" id="instafeed"></div>
-	<div class="insta" id="instafeed2"></div>
+</body>	
 
 <!-- Load JQuery-->
 <script src="jquery-1.11.2.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <!-- Load InstaFeed -->
-<!-- https://github.com/stevenschobert/instafeed.js -->
 <script id="feed" src="instafeed.min.js"></script>
-
 <script src="JSDance.js"></script>
 </body>

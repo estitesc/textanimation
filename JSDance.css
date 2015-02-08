@@ -1,29 +1,35 @@
+@font-face {
+    font-family: billabong;
+    src: url(billabong.ttf);
+}
+
 body {
   font-family: 'avenir next' sans-serif;
   color: #48769C;
-  border-top: solid 200px #48769C;	
+  border-top: solid 100px #48769C;	
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-#insta{
+#title{
+	position: absolute;
 	font-family: 'billabong';
-	/*padding-top: -3cm;*/
-	  position:absolute;
-  	left: 41%;
- 	top: 105px;
-	font-size: 80px;
-	color:white;
+	text-align: center;
+	top: 5px;
+	font-size: 70pt;
+	color: white;
 }
 
 #text_input{
 	border-radius: 6px;
 	margin-top: .4cm;
 }
+
 #grab{
 	margin-bottom: .3cm;
 }
+
 input#grab{
     background:url(play.png);
     background-repeat: no-repeat;
@@ -32,19 +38,21 @@ input#grab{
 }
 
 
-img {
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
-	width: 45%;
-	margin-left: 381px;
-	margin-top: 150px;
+img {
+	width: 35%;
 	border-top: solid #5B372E 15px;
 	border-left: solid #5B372E 15px;
 	border-right: solid #5B372E 15px;
 	border-bottom: solid #5B372E 70px;
 	border-radius: 5px;
-	}
-
 }
+
 
 #stop{
 	padding-top: .5cm;
@@ -53,17 +61,13 @@ img {
 }
 
 #instafeed {
-	position: fixed;
-	left: 100px;
-	top: 120px;
+	position: absolute;
+	width: 100%;
+
 }
 #instafeed2 {
-	position: fixed;
-	left: 100px;
-	top: 120px;
+	position: absolute;
+	width: 100%;
 }
-html, body {
-    margin: 0;
-    height: 100%;
-}
+
 
