@@ -84,16 +84,22 @@ function instagramFeed(tag) {
     limit: '1',
     template: '<a target="_blank" class="animation" href="{{link}}"><img src="{{image}}" /></a>'
   });
+  console.log("before run");
+  clearInstafeed();
   feed.run();
+  console.log("after run");
 }
 
 function refr() {
-	insta1 = $("#instafeed").html();
-	$("#instafeed2").html(insta1);
-	$("#instafeed").html("");
+	clearInstafeed();
 	feed.next();
 }
 
+function clearInstafeed() {
+	insta1 = $("#instafeed").html();
+	$("#instafeed2").html(insta1);
+	$("#instafeed").html("");
+}
 //requestAnimationFrame instead of interval
 //ten thousand click cycle
 function tickNew() {
