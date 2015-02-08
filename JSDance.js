@@ -10,23 +10,23 @@ function list() {
 	}
 }
 
-frames = new list(
-"Hello<br />"  +
-"What<br />" +
-"No<br />",
+// frames = new list(
+// "Hello<br />"  +
+// "What<br />" +
+// "No<br />",
 
-"Hello?<br />" +
-"Whaaa<br />" +
-"Oh... <br />",
+// "Hello?<br />" +
+// "Whaaa<br />" +
+// "Oh... <br />",
 
-"Hello<br />"  +
-"What<br />" +
-"Damn<br />",
+// "Hello<br />"  +
+// "What<br />" +
+// "Damn<br />",
 
-"Hullo<br />"  +
-"What?<br />" +
-"NO.<br />"
-);
+// "Hullo<br />"  +
+// "What?<br />" +
+// "NO.<br />"
+// );
 
 steps_1 = [500, 100, 134, 319, 30];
 
@@ -110,7 +110,7 @@ function tickNew() {
 	}
 	time=x;
 
-	if (x % 200 == 0) {
+	if (x % 400 == 0) {
 		refr();
 	}
 }

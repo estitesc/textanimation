@@ -16,22 +16,18 @@
 <link rel="stylesheet" href="JSDance.css">
 
 
-
 <body OnLoad="start()">
 	<!-- HTML Shell for Animation -->
 
+
 	<center>
-	<h1> INSTASHOW </h1>
+	<h1 id="insta"> Instashow </h1></center>
 <!-- 	<input type=button value="Start" onClick = "start()">
 	<input id="stop" type=button value="Stop" onClick = "stop()"> -->
 
-	<input id="text_input" /> <br />
-
-	<input type=button id="grab" onClick = "start()">
-
+	<center>
 	<input id="text_input" />
-	<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span>
-
+	<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span></center>
 
 	<div id="canvas"></div>
 
@@ -49,7 +45,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <!-- Load InstaFeed -->
 <!-- https://github.com/stevenschobert/instafeed.js -->
-<script src="instafeed.min.js"></script>
+<script id="feed" src="instafeed.min.js"></script>
 
 <script src="JSDance.js"></script>
 </body>
