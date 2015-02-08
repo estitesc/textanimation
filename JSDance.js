@@ -82,10 +82,11 @@ function start() {
 
 	var feed = new Instafeed({
         get: 'tagged',
-        tagName: 'awesome',
-        clientId: 'a201c5295e4a42d1bad1e23aa4cda7be'
-    });
-    feed.run();
+        tagName: 'hackathon',
+        clientId: 'a201c5295e4a42d1bad1e23aa4cda7be',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+  });
+
 }
 
 function stop() {
