@@ -11,7 +11,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 #title{
 	position: absolute;
 	font-family: 'billabong';
@@ -32,12 +31,16 @@ body {
 	color: black;
 }
 
+<<<<<<< HEAD:JSDance.css
 #stripes{
 	position:absolute;
 	margin-top: 600px;
 }
 
 #text_input{
+=======
+#tagInput{
+>>>>>>> 3cd8ba9dc761eb24e520a42a20ddea37b8201aa5:index.css
 	border-radius: 6px;
 	margin-top: .4cm;
 	margin-left: 5px;
@@ -49,18 +52,15 @@ body {
 	margin-bottom: .3cm;
 }
 
-input#grab{
-    background:url(play.png);
-    background-repeat: no-repeat;
-    width:40px;
-    height:40px;
+.insta {
+	position: absolute;
+	width: 100%;
 }
-
 
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
 }
 
 img {
@@ -71,22 +71,3 @@ img {
 	border-bottom: solid #5B372E 70px;
 	border-radius: 5px;
 }
-
-
-#stop{
-	padding-top: .5cm;
-	color: #DF013A;
-	font-size: 30px;
-}
-
-#instafeed {
-	position: absolute;
-	width: 100%;
-
-}
-#instafeed2 {
-	position: absolute;
-	width: 100%;
-}
-
-
