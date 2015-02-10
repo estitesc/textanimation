@@ -1,24 +1,24 @@
 @font-face {
-    font-family: billabong;
-    src: url(billabong.ttf);
+  font-family: billabong;
+  src: url(billabong.ttf);
 }
 
 body {
   font-family: 'avenir next' sans-serif;
   color: #48769C;
-  border-top: solid 100px #48769C;	
+  border-top: solid 120px #48769C;	
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#stripes{
+	position:absolute;
+	margin-top: 600px;
 }
 
 #title{
 	position: absolute;
 	font-family: 'billabong';
-	/*padding-top: -3cm;*/
-	  position:absolute;
- 	top: 5px;
-	font-size: 85px;
-	color:white;
 	text-align: center;
 	top: 5px;
 	font-size: 85px;
@@ -31,16 +31,7 @@ body {
 	color: black;
 }
 
-<<<<<<< HEAD:JSDance.css
-#stripes{
-	position:absolute;
-	margin-top: 600px;
-}
-
-#text_input{
-=======
 #tagInput{
->>>>>>> 3cd8ba9dc761eb24e520a42a20ddea37b8201aa5:index.css
 	border-radius: 6px;
 	margin-top: .4cm;
 	margin-left: 5px;
@@ -54,13 +45,14 @@ body {
 
 .insta {
 	position: absolute;
+	margin-top: 10px;
 	width: 100%;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 img {
