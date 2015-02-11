@@ -1,22 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Justashow</title>
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
 
-<center>
-<span id="title">Justashow</span>
+<body>
+	<center>
+	<span id="title">Justashow</span>
 
-<span id="hashtag">#</span>
-<input id="tagInput" placeholder="Enter tag"/>
-<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
+	<span id="hashtag">#</span>
+	<input id="tagInput" placeholder="Enter tag"/>
+	<span id="grab" class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
 
-<div id="instafeed" class="insta center"></div>
-<div id="instafeed2" class="insta center"></div>
-</center>
+	<div id="instafeed" class="insta center"></div>
+	<div id="instafeed2" class="insta center"></div>
+	</center>
 
-<!-- Load JQuery-->
-<script src="jquery-1.11.2.min.js"></script>
-<!-- Bootstrap -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<!-- Load InstaFeed -->
-<script id="feed" src="instafeed.min.js"></script>
-<!-- JS -->
-<script src="index.js"></script>
-
-
+<%= yield %>
+</body>
+</html>
