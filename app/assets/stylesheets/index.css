@@ -1,6 +1,6 @@
 @font-face {
   font-family: billabong;
-  src: url(<%= font_path 'image.png' %>);
+  src: url(<%= asset_path 'billabong.ttf' %>);
 }
 
 body {
