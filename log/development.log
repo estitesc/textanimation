@@ -1121,3 +1121,39 @@ Started GET "/assets/application-c8ff8fdf8741d0bf32a3d1ae1b995c15.js?body=1" for
 
 
 Started GET "/assets/billabong.ttf" for ::1 at 2015-02-13 17:00:34 -0800
+
+
+Started GET "/" for ::1 at 2015-02-13 17:05:45 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (170.9ms)
+Completed 200 OK in 361ms (Views: 335.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/libraries/jquery-1.11.2.min-eb8e576f52996bce7c557babc6e8a79e.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/welcome-b769325eebd2422c2d33e6d97b8b0257.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/libraries/instafeed.min-892ffe4b234e9f341db0d5b907811746.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/application-c8ff8fdf8741d0bf32a3d1ae1b995c15.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/assets/billabong.ttf" for ::1 at 2015-02-13 17:05:46 -0800
+
+
+Started GET "/" for ::1 at 2015-02-13 17:05:58 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (108.5ms)
+Completed 200 OK in 226ms (Views: 224.8ms | ActiveRecord: 0.0ms)

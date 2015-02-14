@@ -43,3 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+#The purpose of this gem is to have heroku load files locally in the same way they are loaded in development
+gem 'rails_12factor', group: :production
+
